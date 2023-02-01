@@ -1,0 +1,33 @@
+{
+  "name": "softuni-cubicle-2023",
+  "version": "1.0.0",
+  "description": "Softuni Course Project",
+  "main": "src/index.js",
+  "scripts": {
+    "prod": "SET node_env=production&& node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivailopapazov/softuni-cubicle-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivailopapazov/softuni-cubicle-2023/issues"
+  },
+  "homepage": "https://github.com/ivailopapazov/softuni-cubicle-2023#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0"
+  }
+}
